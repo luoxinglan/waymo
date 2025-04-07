@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff44b7ee-0f5e-4e7a-8e90-a2badab6008f" name="更改" comment="首次提交my">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="ff44b7ee-0f5e-4e7a-8e90-a2badab6008f" name="更改" comment="修改了忽略的文件">
+      <change afterPath="$PROJECT_DIR$/data_extract.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/tutorial_motion-CopyMY-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/tutorial_motion-CopyMY-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_motion-CopyMY.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_motion-CopyMY.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/指令.md" beforeDir="false" afterPath="$PROJECT_DIR$/指令.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +44,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python.TEST.executor": "Run",
     "Python.Visualize_TF_Example_sample.executor": "Run",
+    "Python.data_extract.executor": "Run",
     "Python.main.executor": "Run",
     "Python.search_availible_GPU.executor": "Run",
     "Python.version_of_tensorflow.executor": "Run",
@@ -65,6 +69,9 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -85,7 +92,7 @@
       <workItem from="1743135482558" duration="2000" />
       <workItem from="1743144102799" duration="1364000" />
       <workItem from="1743145513759" duration="3601000" />
-      <workItem from="1743390473645" duration="32126000" />
+      <workItem from="1743390473645" duration="52346000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <option name="closed" value="true" />
@@ -135,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743582484538</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改了忽略的文件">
+      <option name="closed" value="true" />
+      <created>1743582753903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743582753903</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改了忽略的文件">
+      <option name="closed" value="true" />
+      <created>1743582758029</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743582758029</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,10 +181,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="首次提交" />
     <MESSAGE value="首次提交my" />
-    <option name="LAST_COMMIT_MESSAGE" value="首次提交my" />
+    <MESSAGE value="修改了忽略的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了忽略的文件" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/waymo$version_of_tensorflow.coverage" NAME="version_of_tensorflow 覆盖结果" MODIFIED="1743146124487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/waymo$data_extract.coverage" NAME="data_extract 覆盖结果" MODIFIED="1743992452820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/waymo$main.coverage" NAME="main 覆盖结果" MODIFIED="1743146496652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/waymo$TEST.coverage" NAME="TEST 覆盖结果" MODIFIED="1743392567018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/waymo$search_availible_GPU.coverage" NAME="search_availible_GPU 覆盖结果" MODIFIED="1743146206611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
